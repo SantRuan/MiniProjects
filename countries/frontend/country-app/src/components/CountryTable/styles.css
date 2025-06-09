@@ -1,0 +1,17 @@
+.app-table-container {
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(94, 241, 192);
+    border-style:solid;
+    border-radius: 15px;
+    border-color: cadetblue;
+    thead, tbody { display: block; }
+thead{
+ display:inline;
+}
+tbody {
+    height: 10rem;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+  }
